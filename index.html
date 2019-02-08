@@ -188,14 +188,23 @@
 							<img class="img-fluid" src="img/contact-img.jpg" alt="">
 						</div>
 						<div class="col-lg-7 col-md-12 contact-right no-padding">
-							<h1>Send me Message</h1>
+							<h1>Send me a message</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.
+								
 							</p>
 							<form action="https://formspree.io/your@email.com" method="POST">
-								<input type="text" name="name">
-								<input type="email" name="_replyto">
-								<input type="submit" value="Send">
+								<div class="col-lg-10 col-md-10 contact-right no-padding">
+									<input type="text" name="name" placeholder="Name">
+								</div>
+								<div class="col-lg-10 col-md-10 contact-right no-padding">
+									<input type="email" name="_replyto" placeholder="email">
+								</div>
+								<div class="col-lg-10 col-md-10 contact-right no-padding">
+									<textarea type="textarea" name="message" placeholder="message"></textarea>
+								</div>
+								<div class="col-lg-10 col-md-10 contact-right no-padding">
+									<input type="submit" value="Send">
+								</div>
 							</form>
 
 							</div>
@@ -221,19 +230,6 @@
 			<!-- End footer Area -->		
 
 			
-<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyA-MsJWsnx6suktu05LEMWq9uPeziCbXSQ",
-    authDomain: "collinportfolio-f7077.firebaseapp.com",
-    databaseURL: "https://collinportfolio-f7077.firebaseio.com",
-    projectId: "collinportfolio-f7077",
-    storageBucket: "collinportfolio-f7077.appspot.com",
-    messagingSenderId: "836197996414"
-  };
-  firebase.initializeApp(config);
-</script>
 			
 			
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
